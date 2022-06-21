@@ -1,0 +1,86 @@
+@import url(/css/reset.css);
+body{
+  background-color: #000000;
+  color: #ffffff;
+}
+.cabecalho{
+  text-align: center;
+  padding: 2rem;
+}
+.cabecalho__titulo{
+  font-size: 28px;
+}
+
+#banner{
+  width: 100%;
+}
+
+.conteudo{
+  padding: 2rem;
+}
+
+.conteudo__titulo{
+  font-size: 26px;
+  margin: 1rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+
+.divisao{
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.divisao__imagem{
+  width: 50%;
+}
+
+.conteudo__texto{
+  font-size: 18px;
+  background-color: #000000 ;
+  padding-bottom: 1rem;
+  margin: 2rem;
+  text-align: justify;
+
+}
+
+.conteudo__subtitulo{
+  font-size: 18px;
+}
+
+.secao{
+  margin-bottom: 1rem;
+}
+
+.secao__titulo{
+  padding-bottom: .5rem;
+}
+
+.secao__texto{
+  text-align: center;
+  font-size: 18px;
+}
+
+.secao__lista{
+  margin: .75rem;
+  list-style-type: disc;
+}
+
+.secao__lista--item{
+  padding-bottom: .5rem;
+}
+
+.artigo{
+ 
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+}
+.artigo__item:hover a{
+color: #FFFFFF;
+}

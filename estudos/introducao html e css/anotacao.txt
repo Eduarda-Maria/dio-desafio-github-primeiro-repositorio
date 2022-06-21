@@ -1,0 +1,56 @@
+introducao a html5
+Estrutura básica html5:
+<!DOCTYPE html>
+<html>
+<head>
+<meta>
+<tile></title>
+<body></body>
+</html>
+
+Semântica:
+section = representa uma seção; 
+header = é utilizado para representar o cabeçalho de um documento ou seção declarado no HTML;
+article = quando precisamos declarar um conteúdo que não precisa de outro para fazer sentido;
+aside =  quando precisamos criar um conteúdo de apoio/adicional ao conteúdo principal;
+footer = representa rodapé;
+h1 - h6 = titulos;
+
+tags:
+textos = h1:título da página,
+ h2: título de seção,
+ h3:título de artigo,
+ p(parágrafo):conteúdo do artigo e outros tipos de conteudo;
+
+links = <a>link</a>(âncora)
+<a href=""></a>
+<a target=""></a> abre o link em outra aba;
+
+imagens = <img>
+<img src=""> (obrigatorio)caminho da imagem
+<img alt="">(não obrigatorio, ajuda na acessibilidade) decrição da imagem, quando não é carregada ;
+
+listas = 
+ul = lista não ordenada;
+ol = lista ordenada;
+li = item que fica dentro da lista;
+
+
+introducao ao css3
+
+conceitos básicos
+Box model:
+margin = espaçamento entre elemento;
+border = ela circunda o padding e o conteudo
+padding= espaçamento a bordar e ao conteudo;
+content= conteudo;
+
+background;
+
+Border = solid(borda simples e reta), dotted(são bolinhas com um pequeno espaçamento entre elas), dashed( forma uma linha tracejada);
+
+Estilizando textos:
+font-family
+font-size = tamanho do texto;
+font-style 
+
